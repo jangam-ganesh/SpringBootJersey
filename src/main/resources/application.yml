@@ -1,0 +1,13 @@
+server:
+    port: 8086
+    servlet:
+        context-path: /api
+
+spring:
+    main:
+        banner-mode: "off"
+
+logging:
+    level:
+        org:
+            springframework: INFO
